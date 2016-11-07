@@ -9,9 +9,11 @@ package lezione1;
  *
  * @author tss
  */
+import javax.swing.JOptionPane;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Primo software inizializzato...");
-        
+        String frase = JOptionPane.showInputDialog("inserisci la frase da stampare");
+        System.out.println(frase);        
     }
 }
